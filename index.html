@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Panadería Delicia</title>
+  <link rel="stylesheet" href="src/css/styles.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+
+  <header class="hero">
+    <nav class="nav-bar">
+      <h1>Panadería Delicia</h1>
+      <ul class="menu">
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#productos">Productos</a></li>
+        <li><a href="#nosotros">Nosotros</a></li>
+        <li><a href="#pedidos">Pedidos</a></li>
+        <li><a href="#carrito">Carrito</a></li>
+      </ul>
+    </nav>
+    <div class="hero-content">
+      <h2>Sweet Treats, Perfect Eats</h2>
+      <p>Delicias horneadas con amor cada día</p>
+      <a class="btn" href="#productos">Ver productos</a>
+    </div>
+  </header>
+
+  <section id="productos" class="productos">
+    <h2>Top Productos</h2>
+    <div class="grid-productos">
+      <div class="card" data-id="1" data-nombre="Pan Artesanal" data-precio="4.00">
+        <img src="assets/pan.jpg" alt="Pan">
+        <h3>Pan Artesanal</h3>
+        <p>S/4.00</p>
+        <button class="agregar-carrito">Agregar al carrito</button>
+      </div>
+      <div class="card" data-id="2" data-nombre="Bizcocho" data-precio="10.00">
+        <img src="assets/bizcocho.jpg" alt="Bizcocho">
+        <h3>Bizcocho</h3>
+        <p>S/10.00</p>
+        <button class="agregar-carrito">Agregar al carrito</button>
+      </div>
+      <div class="card" data-id="3" data-nombre="Pizza" data-precio="10.00">
+        <img src="assets/pizzascaseras.jpg" alt="Pizza">
+        <h3>Pizza</h3>
+        <p>S/10.00</p>
+        <button class="agregar-carrito">Agregar al carrito</button>
+      </div>
+      <div class="card" data-id="4" data-nombre="Pionono" data-precio="10.00">
+        <img src="assets/pionono.jpg" alt="Pionono">
+        <h3>Pionono</h3>
+        <p>S/10.00</p>
+        <button class="agregar-carrito">Agregar al carrito</button>
+      </div>
+      <div class="card" data-id="5" data-nombre="Pye de manzana" data-precio="10.00">
+        <img src="assets/piedemanzana.jpg" alt="Pye de manzana">
+        <h3>Pye de manzana</h3>
+        <p>S/10.00</p>
+        <button class="agregar-carrito">Agregar al carrito</button>
+      </div>
+      <div class="card" data-id="6" data-nombre="Torta helada" data-precio="10.00">
+        <img src="assets/tortahelada.jpg" alt="Torta helada">
+        <h3>Torta helada</h3>
+        <p>S/10.00</p>
+        <button class="agregar-carrito">Agregar al carrito</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="explore">
+    <h2>Escoge</h2>
+    <div class="tabs">
+      <button class="active" data-categoria="todos">Todos</button>
+      <button data-categoria="pan">Panes</button>
+      <button data-categoria="pizzas">Pizzas</button>
+      <button data-categoria="piononos">Piononos</button>
+      <button data-categoria="tortas">Tortas</button>
+      <button data-categoria="pye">Pye</button>
+      <button data-categoria="bizcochos">Bizcochos</button>
+    </div>
+  
+    <div class="gallery">
+      <div class="grid-productos">
+        <div class="item piononos card">        
+          <img src="assets/pionono.jpg" alt="Piononos">    
+        </div>
+        <div class="item bizcochos card">
+          <img src="assets/bizcocho.jpg" alt="Bizcochos">
+        </div>
+        <div class="item pye card">
+          <img src="assets/piedemanzana.jpg" alt="Pye de Manzana">
+        </div>
+        <div class="item pizzas card">
+          <img src="assets/pizzascaseras.jpg" alt="Pizzas Caseras">
+        </div>
+        <div class="item pan card">
+          <img src="assets/pan.jpg" alt="Panes">
+        </div>
+        <div class="item tortas card">
+          <img src="assets/tortahelada.jpg" alt="Torta Helada">
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+<section id="nosotros" class="nosotros">
+  <h2>Sobre Nosotros</h2>
+  <p>Panadería familiar con recetas tradicionales y pasión por el pan y la pastelería.</p>
+</section>
+
+  <section id="carrito" class="carrito-container">
+    <h2 class="section-title">Carrito de Compras</h2>
+    <ul id="lista-carrito">
+      <!-- Los productos agregados al carrito aparecerán aquí -->
+    </ul>
+    <p><strong>Total:</strong> S/ <span id="total-carrito">0.00</span></p>
+    <button id="vaciar-carrito" class="vaciar-btn">Vaciar Carrito</button>
+    <button id="finalizar-compra" class="finalizar-btn">Finalizar Compra</button>
+  </section>
+
+  <section id="pedidos" class="form-container">
+    <h2 class="form-title">Haz tu Pedido</h2>
+    <form class="pedido-form">
+        <div class="form-group">
+            <label for="nombre" class="form-label">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" class="form-input" required>
+        </div>
+
+        <div class="form-group">
+            <label for="apellido" class="form-label">Apellido:</label>
+            <input type="text" id="apellido" name="apellido" class="form-input" required>
+        </div>
+
+        <div class="form-group">
+            <label for="direccion" class="form-label">Dirección:</label>
+            <input type="text" id="direccion" name="direccion" class="form-input" required>
+        </div>
+
+        <div class="form-group">
+            <label for="numero-contacto" class="form-label">Número de Contacto:</label>
+            <input type="tel" id="numero-contacto" name="numero-contacto" class="form-input" required>
+        </div>
+
+        <div class="form-group">
+            <label for="metodo-pago" class="form-label">Método de Pago:</label>
+            <select id="metodo-pago" name="metodo-pago" class="form-input" required>
+                <option value="tarjeta">Tarjeta de Crédito/Débito</option>
+                <option value="paypal">PayPal</option>
+                <option value="efectivo">Efectivo a la entrega</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <button type="submit" class="submit-btn">Enviar Pedido</button>
+        </div>
+    </form>
+</section>
+
+
+
+
+  <footer class="footer">
+    <div class="footer-content">
+      <div>
+        <h3>Contacto</h3>
+        <p>📞 987 654 321</p>
+        <p>📧 panaderiadelicia@gmail.com</p>
+      </div>
+      <div>
+        <h3>Redes</h3>
+        <p>Facebook · Instagram · WhatsApp</p>
+      </div>
+      <div>
+        <h3>Explora</h3>
+        <p>Inicio · Productos · Nosotros · Pedidos</p>
+      </div>
+    </div>
+    <p class="copy">&copy; 2025 Panadería Delicia. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+

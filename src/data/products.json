@@ -1,0 +1,37 @@
+[
+  {
+    "image": "assets/pastel-02.jpg",
+    "stock": 10,
+    "nombre": "Pan de molde",
+    "precio": 3.5,
+    "categoria": "pastel"
+  },
+  {
+    "image": "assets/pastel-01.jpg",
+    "stock": 5,
+    "nombre": "Croissant",
+    "precio": 5.0,
+    "categoria": "pastel"
+  },
+  {
+    "image": "assets/pastel-01.jpg",
+    "stock": 4,
+    "nombre": "Croissant",
+    "precio": 2.0,
+    "categoria": "pastel"
+  },
+  {
+    "image": "assets/pastel-01.jpg",
+    "stock": 3,
+    "nombre": "Croissant",
+    "precio": 3.0,
+    "categoria": "pastel"
+  },
+  {
+    "image": "assets/pastel-01.jpg",
+    "stock": 2,
+    "nombre": "Croissant",
+    "precio": 4.0,
+    "categoria": "pastel"
+  }
+]
