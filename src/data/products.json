@@ -1,37 +1,205 @@
 [
-  {
-    "image": "assets/pastel-02.jpg",
-    "stock": 10,
-    "nombre": "Pan de molde",
-    "precio": 3.5,
-    "categoria": "pastel"
-  },
-  {
-    "image": "assets/pastel-01.jpg",
-    "stock": 5,
-    "nombre": "Croissant",
-    "precio": 5.0,
-    "categoria": "pastel"
-  },
-  {
-    "image": "assets/pastel-01.jpg",
-    "stock": 4,
-    "nombre": "Croissant",
-    "precio": 2.0,
-    "categoria": "pastel"
-  },
-  {
-    "image": "assets/pastel-01.jpg",
-    "stock": 3,
-    "nombre": "Croissant",
-    "precio": 3.0,
-    "categoria": "pastel"
-  },
-  {
-    "image": "assets/pastel-01.jpg",
-    "stock": 2,
-    "nombre": "Croissant",
-    "precio": 4.0,
-    "categoria": "pastel"
-  }
+    {
+        "image": "assets/torta-01.webp",
+        "stock": 10,
+        "nombre": "Torta 3 leches clasica",
+        "precio": 40.00,
+        "categoria": "torta"
+      },
+      {
+        "image": "assets/torta-02.webp",
+        "stock": 10,
+        "nombre": "Torta sublime",
+        "precio": 40.00,
+        "categoria": "torta"
+      },
+      {
+        "image": "assets/torta-03.webp",
+        "stock": 10,
+        "nombre": "Torta 3 leches maracuya",
+        "precio": 40.00,
+        "categoria": "torta"
+      },
+      {
+        "image": "assets/torta-04.webp",
+        "stock": 10,
+        "nombre": "Torta de chocolate",
+        "precio": 40.00,
+        "categoria": "torta"
+      },
+      {
+        "image": "assets/torta-05.webp",
+        "stock": 10,
+        "nombre": "Torta de capucchino",
+        "precio": 40.00,
+        "categoria": "torta"
+      },
+      {
+        "image": "assets/torta-06.webp",
+        "stock": 10,
+        "nombre": "Torta trufas",
+        "precio": 40.00,
+        "categoria": "torta"
+      },
+      {
+      "image": "assets/pan-01.webp",
+      "stock": 30,
+      "nombre": "Pan de chabata",
+      "precio": 0.30,
+      "categoria": "pan"
+    },
+    {
+        "image": "assets/pan-02.webp",
+        "stock": 30,
+        "nombre": "Pan de cacho",
+        "precio": 0.50,
+        "categoria": "pan"
+    },
+    {
+        "image": "assets/pan-03.webp",
+        "stock": 30,
+        "nombre": "Pan de chancho",
+        "precio": 0.50,
+        "categoria": "pan"
+    },
+    {
+        "image": "assets/pan-04.webp",
+        "stock": 30,
+        "nombre": "Pan de minibaguette",
+        "precio": 0.50,
+        "categoria": "pan"
+    },
+    {
+        "image": "assets/pan-05.webp",
+        "stock": 30,
+        "nombre": "Pan de hamburguesa",
+        "precio": 0.50,
+        "categoria": "pan"
+    },
+    {
+        "image": "assets/pan-06.webp",
+        "stock": 30,
+        "nombre": "Pan de molde",
+        "precio": 0.50,
+        "categoria": "pan"
+    },
+    {
+        "image": "assets/pan-07.webp",
+        "stock": 30,
+        "nombre": "Pan de coliza",
+        "precio": 0.50,
+        "categoria": "pan"
+    },
+    {
+        "image": "assets/pan-08.webp",
+        "stock": 30,
+        "nombre": "Pan de frances",
+        "precio": 0.50,
+        "categoria": "pan"
+    },
+    {
+        "image": "assets/pan-09.webp",
+        "stock": 30,
+        "nombre": "Pan de molde integral",
+        "precio": 0.50,
+        "categoria": "pan"
+    },
+    {
+        "image": "assets/pan-010.webp",
+        "stock": 30,
+        "nombre": "Pan de baguette",
+        "precio": 0.50,
+        "categoria": "pan"
+    },
+    {
+        "image": "assets/pastel-01.webp",
+        "stock": 15,
+        "nombre": "Pastel de pie de lucuma",
+        "precio": 5.50,
+        "categoria": "pastel"
+    },
+    {
+        "image": "assets/pastel-02.webp",
+        "stock": 15,
+        "nombre": "Pastel de pie de manzana",
+        "precio": 5.50,
+        "categoria": "pastel"
+    },
+    {
+        "image": "assets/pastel-03.webp",
+        "stock": 15,
+        "nombre": "Pastel de pie de piña",
+        "precio": 5.50,
+        "categoria": "pastel"
+    },
+    {
+        "image": "assets/pastel-04.webp",
+        "stock": 15,
+        "nombre": "Pastel de pie de limon",
+        "precio": 5.50,
+        "categoria": "pastel"
+    },
+    {
+        "image": "assets/bocados-01.webp",
+        "stock": 15,
+        "nombre": "Bocado de Galleta",
+        "precio": 2.50,
+        "categoria": "bocados"
+    },
+    {
+        "image": "assets/bocados-02.webp",
+        "stock": 20,
+        "nombre": "Bocado de Orejitas",
+        "precio": 2.50,
+        "categoria": "bocados"
+    },
+    {
+        "image": "assets/bocados-03.webp",
+        "stock": 20,
+        "nombre": "Bocado de Trufas",
+        "precio": 2.50,
+        "categoria": "bocados"
+    },
+    {
+        "image": "assets/bocados-04.webp",
+        "stock": 20,
+        "nombre": "Bocado de Alfajores",
+        "precio": 2.50,
+        "categoria": "bocados"
+    },
+    {
+        "image": "assets/pizza-01.webp",
+        "stock": 20,
+        "nombre": "Pizza Americana",
+        "precio": 30.00,
+        "categoria": "pizza"
+    },
+    {
+        "image": "assets/pizza-02.webp",
+        "stock": 10,
+        "nombre": "Pizza Hawaina",
+        "precio": 30.00,
+        "categoria": "pizza"
+    },
+    {
+        "image": "assets/pizza-03.webp",
+        "stock": 10,
+        "nombre": "Pizza Portuguesa",
+        "precio": 30.00,
+        "categoria": "pizza"
+    },
+    {
+        "image": "assets/pizza-04.webp",
+        "stock": 10,
+        "nombre": "Pizza Americana",
+        "precio": 30.00,
+        "categoria": "pizza"
+    },
+    {
+        "image": "assets/pizza-05.webp",
+        "stock": 10,
+        "nombre": "Pizza Maragarita",
+        "precio": 30.00,
+        "categoria": "pizza"
+    }
 ]
