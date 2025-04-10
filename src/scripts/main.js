@@ -1,14 +1,14 @@
 import { loadRoute } from "./router.js";
-import { initProductosPage } from "./products-controller.js";
+import { initTopProducts, initProductsPage } from "./products-controller.js";
 
 const cargarApp = async () => {
   const ruta = await loadRoute();
 
-  if (ruta === "/products") {
-    initProductosPage();
+  if (ruta === "/home") {
+    initTopProducts();
+  } else if (ruta === "/products") {
+    initProductsPage();
   }
-
-  // podrías añadir más controladores aquí si necesitas
 };
 
 window.addEventListener("hashchange", cargarApp);

@@ -1,6 +1,6 @@
-import { renderCardsFromJSON, filtrarPorCategoria } from "./products.js";
+import { renderCardsFromJSON, filtrarPorCategoria } from "./product-card.js";
 
-export const initProductosPage = async () => {
+export const initProductsPage = async () => {
   const res = await fetch("src/data/products.json");
   const data = await res.json();
   renderCardsFromJSON(data);
@@ -18,3 +18,15 @@ export const initProductosPage = async () => {
     });
   });
 };
+
+export const initTopProducts = () => {
+  fetch("src/data/products.json")
+    .then(res => res.json())
+    .then(data => {
+      const aleatorios = [...data]
+        .sort(() => Math.random() - 0.5)
+        .slice(0, 5);
+
+      renderCardsFromJSON(aleatorios);
+    });
+}
