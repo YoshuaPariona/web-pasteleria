@@ -1,3 +1,23 @@
+import { loadRoute } from "./router.js";
+import { initProductosPage } from "./products-controller.js";
+
+const cargarApp = async () => {
+  const ruta = await loadRoute();
+
+  if (ruta === "/products") {
+    initProductosPage();
+  }
+
+  // podrías añadir más controladores aquí si necesitas
+};
+
+window.addEventListener("hashchange", cargarApp);
+window.addEventListener("DOMContentLoaded", cargarApp);
+
+
+/*
+
+
 document.addEventListener("DOMContentLoaded", function () {
   const botones = document.querySelectorAll('.tabs button');
   const items = document.querySelectorAll('.gallery .item');
@@ -94,3 +114,4 @@ if (carrito.length === 0) {
   actualizarCarrito();
 }
 });
+*/
