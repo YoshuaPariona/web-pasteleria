@@ -1,6 +1,7 @@
 const routes = {
   "/home": "src/pages/home.html",
   "/products": "src/pages/products.html",
+  "/about-us": "src/pages/about-us.html",
   "/shopping-cart": "src/pages/shopping-cart.html",
 };
 
@@ -15,7 +16,8 @@ export const loadRoute = async () => {
     if (!res.ok) throw new Error("No se pudo cargar la vista");
     const html = await res.text();
     app.innerHTML = html;
-    return route; // devuelves la ruta cargada
+
+    return route;
   } catch (error) {
     app.innerHTML = "<p class='text-red-600'>Error al cargar la vista.</p>";
     return null;

@@ -1,6 +1,8 @@
+import { addToCart } from "./cart.js";
+
 export const renderCardsFromJSON = (data) => {
   const contenedor = document.getElementById("products-container");
-  contenedor.innerHTML = ""; // Limpiar el contenedor antes de agregar nuevos productos
+  contenedor.innerHTML = "";
 
   data.forEach(prod => {
     const card = document.createElement("div");
@@ -15,6 +17,11 @@ export const renderCardsFromJSON = (data) => {
         Agregar
       </button>
     `;
+
+    const addButton = card.querySelector("button");
+    addButton.addEventListener("click", () => {
+      addToCart(prod);
+    });
 
     contenedor.appendChild(card);
   });
