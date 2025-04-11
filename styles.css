@@ -32,6 +32,10 @@ color: #d2691e;
     ,url(./assets/fondo.webp);
 }
 
+.menu {
+  font-weight: bold;
+}
+
 .menu li:hover {
   text-decoration-line: underline;
   color: #fb923c;

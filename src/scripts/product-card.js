@@ -21,6 +21,7 @@ export const renderCardsFromJSON = (data) => {
     const addButton = card.querySelector("button");
     addButton.addEventListener("click", () => {
       addToCart(prod);
+      //document.getElementById('cart-count').textContent = localStorage.getItem('cartCount')
     });
 
     contenedor.appendChild(card);
