@@ -1,6 +1,6 @@
 import { loadRoute } from "./router.js";
 import { initTopProducts, initProductsPage } from "./products-controller.js";
-import { renderCart } from "./cart.js";
+import { renderCart, updateCartCounter } from "./cart.js";
 
 const cargarApp = async () => {
   const ruta = await loadRoute();
@@ -10,9 +10,21 @@ const cargarApp = async () => {
   } else if (ruta === "/products") {
     initProductsPage();
   } else if (ruta === "/shopping-cart") {
-    renderCart();
-  } 
+    const waitForCart = setInterval(() => {
+      if (document.getElementById("cart-items")) {
+        clearInterval(waitForCart);
+        renderCart();
+      }
+    }, 10); // Chequea cada 10ms hasta que el DOM esté listo
+  }
 };
 
-window.addEventListener("hashchange", cargarApp);
-window.addEventListener("DOMContentLoaded", cargarApp);
+window.addEventListener("hashchange", () => {
+  cargarApp();
+  updateCartCounter();
+});
+
+window.addEventListener("DOMContentLoaded", () => {
+  cargarApp();
+  updateCartCounter();
+});

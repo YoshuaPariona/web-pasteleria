@@ -18,6 +18,7 @@ cart.push({ ...product, quantity: 1 });
 }
 
 saveCartToLocalStorage(cart);
+updateCartCounter();
 };
 
 export const renderCart = () => {
@@ -63,13 +64,41 @@ export const renderCart = () => {
     totalPriceElement.textContent = `$${total.toFixed(2)}`;
   };
   
-  export const removeFromCart = (productName) => {
-    let cart = getCartFromLocalStorage();
-    
-    cart = cart.filter(item => item.name !== productName);
-    
-    saveCartToLocalStorage(cart);
-    
-    renderCart();
-  };
+export const removeFromCart = (productName) => {
+  let cart = getCartFromLocalStorage();
   
+  cart = cart.filter(item => item.name !== productName);
+  
+  saveCartToLocalStorage(cart);
+  
+
+  renderCart();
+};
+
+document.addEventListener("DOMContentLoaded", () => {
+  const checkoutBtn = document.getElementById("checkout-btn");
+  const qrContainer = document.getElementById("qr-container");
+
+  if (checkoutBtn && qrContainer) {
+    checkoutBtn.addEventListener("click", () => {
+      // Si quieres también vaciar el carrito al mostrar el QR, puedes hacerlo aquí:
+      // localStorage.removeItem("cart");
+      // renderCart();
+
+      qrContainer.classList.remove("hidden");
+      qrContainer.scrollIntoView({ behavior: "smooth" });
+    });
+  }
+
+  renderCart(); // Asegúrate de llamar a esto para que se cargue el carrito
+});
+
+export const updateCartCounter = () => {
+  const cart = getCartFromLocalStorage();
+  const count = cart.reduce((sum, item) => sum + item.quantity, 0);
+
+  const counter = document.getElementById("num-prod");
+  if (counter) {
+    counter.textContent = count;
+  }
+};
