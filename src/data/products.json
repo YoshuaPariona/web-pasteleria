@@ -1,73 +1,366 @@
 [
     {
-      "image": "https://picsum.photos/200/300",
-      "stock": 10,
-      "name": "Figura Demon Slayer - Nezuko",
-      "price": 45.00,
-      "category": "figuras"
+        "image": "assets/productos/accesorios/aretes-tokio-revengers.png",
+        "stock": 10,
+        "name": "Aretes Tokio Revengers",
+        "price": 15.00,
+        "category": "accesorios"
     },
     {
-      "image": "https://picsum.photos/200/300",
-      "stock": 8,
-      "name": "Figura Goku Ultra Instinct",
-      "price": 50.00,
-      "category": "figuras"
+        "image": "assets/productos/accesorios/collar-akatsuki.png",
+        "stock": 8,
+        "name": "Collar Akatsuki",
+        "price": 20.00,
+        "category": "accesorios"
     },
     {
-      "image": "https://picsum.photos/200/300",
-      "stock": 12,
-      "name": "Lightstick BTS - Army Bomb v4",
-      "price": 65.00,
-      "category": "kpop"
+        "image": "assets/productos/accesorios/collar-itachi.jpg",
+        "stock": 5,
+        "name": "Collar Itachi",
+        "price": 22.00,
+        "category": "accesorios"
     },
     {
-      "image": "https://picsum.photos/200/300",
-      "stock": 15,
-      "name": "Álbum TWICE - Ready To Be",
-      "price": 35.00,
-      "category": "kpop"
+        "image": "assets/productos/accesorios/dragon-ball-pendientes.jpg",
+        "stock": 12,
+        "name": "Pendientes Dragon Ball",
+        "price": 18.00,
+        "category": "accesorios"
     },
     {
-      "image": "https://picsum.photos/200/300",
-      "stock": 20,
-      "name": "Camiseta One Piece - Luffy Gear 5",
-      "price": 25.00,
-      "category": "anime"
+        "image": "assets/productos/accesorios/kunai.jpg",
+        "stock": 20,
+        "name": "Kunai",
+        "price": 10.00,
+        "category": "accesorios"
     },
     {
-      "image": "https://picsum.photos/200/300",
-      "stock": 25,
-      "name": "Poster Ataque de los Titanes",
-      "price": 10.00,
-      "category": "anime"
+        "image": "assets/productos/accesorios/llavero-shingeki.png",
+        "stock": 15,
+        "name": "Llavero Shingeki no Kyojin",
+        "price": 12.00,
+        "category": "accesorios"
     },
     {
-      "image": "https://picsum.photos/200/300",
-      "stock": 30,
-      "name": "Llavero Totoro Acrílico",
-      "price": 5.00,
-      "category": "accesorios"
+        "image": "assets/productos/accesorios/llavero-tanjiro-bandai-450x507.webp",
+        "stock": 7,
+        "name": "Llavero Tanjiro",
+        "price": 14.00,
+        "category": "accesorios"
     },
     {
-      "image": "https://picsum.photos/200/300",
-      "stock": 25,
-      "name": "Set de pines Anime Mix",
-      "price": 8.00,
-      "category": "accesorios"
+        "image": "assets/productos/accesorios/LLAVERO-THE-LAST-OF-US.png-450x507.jpg",
+        "stock": 9,
+        "name": "Llavero The Last of Us",
+        "price": 16.00,
+        "category": "accesorios"
     },
     {
-      "image": "https://picsum.photos/200/300",
-      "stock": 5,
-      "name": "Cosplay Naruto - Traje Completo",
-      "price": 85.00,
-      "category": "cosplay"
+        "image": "assets/productos/accesorios/naruto-bandana.jpg",
+        "stock": 11,
+        "name": "Bandana Naruto",
+        "price": 13.00,
+        "category": "accesorios"
     },
     {
-      "image": "https://picsum.photos/200/300",
-      "stock": 6,
-      "name": "Cosplay Sailor Moon - Uniforme",
-      "price": 80.00,
-      "category": "cosplay"
+        "image": "assets/productos/accesorios/PIN-SAKURA-CARD-KAPTOR-450x507.webp",
+        "stock": 6,
+        "name": "Pin Sakura Card Captor",
+        "price": 11.00,
+        "category": "accesorios"
+    },
+    {
+        "image": "assets/productos/accesorios/PIN-THE-LAST-OF-US-001.png-450x507.webp",
+        "stock": 8,
+        "name": "Pin The Last of Us",
+        "price": 10.00,
+        "category": "accesorios"
+    },
+    {
+        "image": "assets/productos/comida/AN-SUNG-TANG-MYUM.png",
+        "stock": 25,
+        "name": "An Sung Tang Myum",
+        "price": 5.00,
+        "category": "comida"
+    },
+    {
+        "image": "assets/productos/comida/BOWL-SHIN-BLACK.png",
+        "stock": 20,
+        "name": "Bowl Shin Black",
+        "price": 7.00,
+        "category": "comida"
+    },
+    {
+        "image": "assets/productos/comida/BOWL-UDON..png",
+        "stock": 18,
+        "name": "Bowl Udon",
+        "price": 6.00,
+        "category": "comida"
+    },
+    {
+        "image": "assets/productos/comida/CHAM-PONG.png",
+        "stock": 22,
+        "name": "Cham Pong",
+        "price": 6.50,
+        "category": "comida"
+    },
+    {
+        "image": "assets/productos/comida/Jin-ramen-Mild-Cup-65g-Ottogi.png",
+        "stock": 30,
+        "name": "Jin Ramen Mild Cup",
+        "price": 4.00,
+        "category": "comida"
+    },
+    {
+        "image": "assets/productos/comida/KIMCHI.png",
+        "stock": 15,
+        "name": "Kimchi",
+        "price": 8.00,
+        "category": "comida"
+    },
+    {
+        "image": "assets/productos/comida/NEOGURI.png",
+        "stock": 17,
+        "name": "Neoguri",
+        "price": 5.50,
+        "category": "comida"
+    },
+    {
+        "image": "assets/productos/comida/nishin-cup.jpg",
+        "stock": 24,
+        "name": "Nishin Cup",
+        "price": 4.50,
+        "category": "comida"
+    },
+    {
+        "image": "assets/productos/comida/SEAFOOD.png",
+        "stock": 19,
+        "name": "Seafood",
+        "price": 7.50,
+        "category": "comida"
+    },
+    {
+        "image": "assets/productos/comida/SESAME-RAMYEON-CHAMKE-x-110gr.jpg",
+        "stock": 21,
+        "name": "Sesame Ramyeon Chamke",
+        "price": 5.00,
+        "category": "comida"
+    },
+    {
+        "image": "assets/productos/cosplay/Hinata Hyūga.jpg",
+        "stock": 3,
+        "name": "Cosplay Hinata Hyuga",
+        "price": 90.00,
+        "category": "cosplay"
+    },
+    {
+        "image": "assets/productos/cosplay/Hu Tao.jpg",
+        "stock": 5,
+        "name": "Cosplay Hu Tao",
+        "price": 95.00,
+        "category": "cosplay"
+    },
+    {
+        "image": "assets/productos/cosplay/Iguro Obanai.jpg",
+        "stock": 2,
+        "name": "Cosplay Iguro Obanai",
+        "price": 88.00,
+        "category": "cosplay"
+    },
+    {
+        "image": "assets/productos/cosplay/Kamado Tanjiro.jpg",
+        "stock": 4,
+        "name": "Cosplay Kamado Tanjiro",
+        "price": 92.00,
+        "category": "cosplay"
+    },
+    {
+        "image": "assets/productos/cosplay/Kazuha.jpg",
+        "stock": 3,
+        "name": "Cosplay Kazuha",
+        "price": 94.00,
+        "category": "cosplay"
+    },
+    {
+        "image": "assets/productos/cosplay/Ken Takakura.jpg",
+        "stock": 2,
+        "name": "Cosplay Ken Takakura",
+        "price": 87.00,
+        "category": "cosplay"
+    },
+    {
+        "image": "assets/productos/cosplay/Momo Yaoyorozu.jpg",
+        "stock": 3,
+        "name": "Cosplay Momo Yaoyorozu",
+        "price": 93.00,
+        "category": "cosplay"
+    },
+    {
+        "image": "assets/productos/cosplay/Satoru Gojo.jpg",
+        "stock": 4,
+        "name": "Cosplay Satoru Gojo",
+        "price": 96.00,
+        "category": "cosplay"
+    },
+    {
+        "image": "assets/productos/cosplay/Suguru Geto.jpg",
+        "stock": 2,
+        "name": "Cosplay Suguru Geto",
+        "price": 89.00,
+        "category": "cosplay"
+    },
+    {
+        "image": "assets/productos/cosplay/Tsunade Senju.jpg",
+        "stock": 3,
+        "name": "Cosplay Tsunade Senju",
+        "price": 91.00,
+        "category": "cosplay"
+    },
+    {
+        "image": "assets/productos/figuras/banpresto-BLUE-LOCK-RIN-ITOSHI-1-450x507.jpg",
+        "stock": 6,
+        "name": "Figura Blue Lock Rin Itoshi",
+        "price": 45.00,
+        "category": "figuras"
+    },
+    {
+        "image": "assets/productos/figuras/banpresto-chigiri-hyoma-1-450x507.jpg",
+        "stock": 5,
+        "name": "Figura Chigiri Hyoma",
+        "price": 47.00,
+        "category": "figuras"
+    },
+    {
+        "image": "assets/productos/figuras/banpresto-MEGURU-BACHIRA-3-450x507.jpg",
+        "stock": 7,
+        "name": "Figura Meguru Bachira",
+        "price": 46.00,
+        "category": "figuras"
+    },
+    {
+        "image": "assets/productos/figuras/banpresto-NAGI-11-MEJORES-2-450x507.jpg",
+        "stock": 4,
+        "name": "Figura Nagisa Shiota",
+        "price": 48.00,
+        "category": "figuras"
+    },
+    {
+        "image": "assets/productos/figuras/banpresto-REO-PELICULA-NAGI-2.jpg",
+        "stock": 5,
+        "name": "Figura Reo Nagisa",
+        "price": 49.00,
+        "category": "figuras"
+    },
+    {
+        "image": "assets/productos/figuras/FIGURA-DANDADAN-MOMO-2-450x507.jpg",
+        "stock": 6,
+        "name": "Figura Dandadan Momo",
+        "price": 50.00,
+        "category": "figuras"
+    },
+    {
+        "image": "assets/productos/figuras/FIGURA-NARUTO-SAKURA-INVOCACION-450x507.jpg",
+        "stock": 8,
+        "name": "Figura Naruto Sakura Invocacion",
+        "price": 52.00,
+        "category": "figuras"
+    },
+    {
+        "image": "assets/productos/figuras/FIGURA-SEGA-FERN-450x507.jpg",
+        "stock": 5,
+        "name": "Figura Sega Fern",
+        "price": 51.00,
+        "category": "figuras"
+    },
+    {
+        "image": "assets/productos/figuras/FIGURA-SEGA-FREIREN-450x507.jpg",
+        "stock": 7,
+        "name": "Figura Sega Freiren",
+        "price": 53.00,
+        "category": "figuras"
+    },
+    {
+        "image": "assets/productos/figuras/Figura-Yoichi-Isagi-Blue-Lock-–-Awakening-Ver.-1-450x507.jpg",
+        "stock": 6,
+        "name": "Figura Yoichi Isagi Blue Lock",
+        "price": 54.00,
+        "category": "figuras"
+    },
+    {
+        "image": "assets/productos/figuras/HAIKYUU-YU-NISHINOYA-1-450x507.jpg",
+        "stock": 8,
+        "name": "Figura Haikyuu Yu Nishinoya",
+        "price": 55.00,
+        "category": "figuras"
+    },
+    {
+        "image": "assets/productos/ropa/POLERA-HAIKYU-02-450x504.jpg",
+        "stock": 12,
+        "name": "Polera Haikyuu 02",
+        "price": 25.00,
+        "category": "ropa"
+    },
+    {
+        "image": "assets/productos/ropa/POLERA-HAIKYU-04-450x504.jpg",
+        "stock": 10,
+        "name": "Polera Haikyuu 04",
+        "price": 26.00,
+        "category": "ropa"
+    },
+    {
+        "image": "assets/productos/ropa/POLERA-HAIKYUU-AKIRA-SEIHIN-11-450x507.jpg",
+        "stock": 9,
+        "name": "Polera Haikyuu Akira Seihin 11",
+        "price": 27.00,
+        "category": "ropa"
+    },
+    {
+        "image": "assets/productos/ropa/POLERA-HAIKYUU-AKIRA-SEIHIN-6-450x507.jpg",
+        "stock": 11,
+        "name": "Polera Haikyuu Akira Seihin 6",
+        "price": 28.00,
+        "category": "ropa"
+    },
+    {
+        "image": "assets/productos/ropa/POLERA-ONE-PIECE-USSOP-BEAGE-450x507.jpg",
+        "stock": 13,
+        "name": "Polera One Piece Usopp Beage",
+        "price": 29.00,
+        "category": "ropa"
+    },
+    {
+        "image": "assets/productos/ropa/POLERA-ONE-PIECE-ZORO-450x507.jpg",
+        "stock": 14,
+        "name": "Polera One Piece Zoro",
+        "price": 30.00,
+        "category": "ropa"
+    },
+    {
+        "image": "assets/productos/ropa/POLERA-SLAM-DUNK-3-450x504.jpg",
+        "stock": 10,
+        "name": "Polera Slam Dunk 3",
+        "price": 24.00,
+        "category": "ropa"
+    },
+    {
+        "image": "assets/productos/ropa/POLERA-SLAM-DUNK-450x504.jpg",
+        "stock": 12,
+        "name": "Polera Slam Dunk",
+        "price": 23.00,
+        "category": "ropa"
+    },
+    {
+        "image": "assets/productos/ropa/POLERA-STUDIO-GHIBLI-HAKU-450x507.jpg",
+        "stock": 8,
+        "name": "Polera Studio Ghibli Haku",
+        "price": 22.00,
+        "category": "ropa"
+    },
+    {
+        "image": "assets/productos/ropa/rurouni-kenshin-2-450x507.jpg",
+        "stock": 7,
+        "name": "Polera Rurouni Kenshin",
+        "price": 21.00,
+        "category": "ropa"
     }
-  ]
-  
+]
